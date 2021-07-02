@@ -1,0 +1,40 @@
+
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  padding: 60px;
+}
+
+h1{
+  text-align: center;
+}
+
+input{
+  font-size: 1.2rem;
+  width:  100%;
+}
+
+.card{
+  box-sizing: content-box;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+  overflow: hidden; /*para que los bordes de las imágenes no se salgan*/
+  padding: 20px;
+  width: 15rem ;
+  display: inline-flex;
+  height: 370px;
+}
+
+.card p{
+  padding: 5px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.card img{
+  max-height: 200px;
+  max-width: 400px;
+}
